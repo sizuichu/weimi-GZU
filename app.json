@@ -17,7 +17,7 @@
     "window": {
         "backgroundTextStyle": "dark",
         "navigationBarBackgroundColor": "#118fff",
-        "navigationBarTitleText": "守望轩",
+        "navigationBarTitleText": "微觅贵大",
         "navigationBarTextStyle": "white"
     },
     "tabBar": {
@@ -36,7 +36,7 @@
                 "pagePath": "pages/comments/comments",
                 "iconPath": "images/tar-comments.png",
                 "selectedIconPath": "images/tar-comments-on.png",
-                "text": "评论"
+                "text": "TA说"
             },
             {
                 "pagePath": "pages/readlog/readlog",

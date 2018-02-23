@@ -16,13 +16,13 @@
 }
 
 .header {
-  padding: 50rpx 0;
+  padding: 15rpx;
   text-align: center;
   font-weight: normal;
-  font-size: 30rpx;
+  font-size: 40rpx;
   line-height: 40rpx;
   color: #757575;
-  border-bottom: 2rpx solid #ededed;
+  border-bottom: 10rpx solid #ededed;
   margin-bottom: 8rpx;
 }
 
@@ -81,13 +81,21 @@
   overflow: hidden;
 }
 
-.common-list .list-item.has-img image.cover {
+.common-list .list-item.has-img image .cover {
   position: absolute;
   left: 0rpx;
   top: 24rpx;
   width: 200rpx;
   height: 150rpx;
 }
+.cover-new {
+  height: 300rpx;
+  width: 100%;
+  border: 1px solid gray;
+  border-bottom: 10rpx solid gry;
+  border-radius: 20rpx 20rpx 0 0;
+}
+
 
 .common-list .list-item.has-img .content-title {
   margin-left: 200rpx;
@@ -128,6 +136,40 @@
 }
 
 /*common list end */
+/*common list new */
+
+.common-list-new{
+
+border: 1px solid green;
+}
+
+
+.content-border{
+border-left: 8px solid gray;
+padding: 15rpx;
+width: 100%;
+height: 30rpx;
+}
+
+.content-border-img{
+padding: 6rpx;
+border-top: 14rpx solid white;
+border-bottom: 8rpx solid gray;
+width: 100%;
+height: 100rpx;
+}
+.new-content-title {
+  margin-left: 0rpx;
+  height: auto;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid gray;
+  padding-bottom: 24rpx;
+  padding-top: 15rpx;
+  font-size: 34rpx;
+}
+.new-content-date{
+text-align: right;
+}
 
 .showerror {
   text-align: center;
