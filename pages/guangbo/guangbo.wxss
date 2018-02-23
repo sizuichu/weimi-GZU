@@ -1,0 +1,88 @@
+/* photo  */
+.contact {
+  width: 100%;
+  height: 390rpx;
+}
+.contact image {
+  width: 100%;
+  height: 100%;
+}
+
+/* main  */
+.main {
+  width: 100%;
+  height: auto;
+  padding: 18rpx 60rpx 27rpx;
+  box-sizing: border-box;
+}
+.content {
+  width: 628rpx;
+  height: auto;
+  border: 1px solid #DCDCDC;
+  padding: 0 23rpx 0 20rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+}
+.content view {
+  height: 99rpx;
+  line-height: 99rpx;
+  border-top: 2rpx solid #BFBFBF;
+  display: flex;
+  align-items: center;
+}
+.content view:first-of-type {
+  border: 0;
+}
+.content view:nth-of-type(4) {
+  height: 110rpx;
+  flex-wrap: wrap;
+  position: relative;
+}
+.content view .txt {
+  margin-left: 36rpx;
+}
+.content view image {
+  width: 53rpx;
+  height: 53rpx;
+  margin-left: 38rpx;
+}
+ .content .address {
+  margin: 10rpx 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-44rpx, -14rpx);
+} 
+/* 地图  */
+.content .map {
+  margin-top: 20rpx;
+  border: 0;
+  height: 260rpx;
+  padding: 0 24rpx 26rpx 28rpx;
+}
+.content .map map {
+  width: 576rpx;
+  height: 235rpx;
+}
+.aboutimg{
+height:40rpx；
+width：100%；
+
+}
+.abouttext{
+display: block; 
+width: 92%; 
+height: auto; 
+padding: 6px 12px; 
+font-size: 14px; 
+line-height: 1.4285714229; 
+color: #555555; 
+vertical-align: middle; 
+background-color: #ffffff; 
+border: 1px solid #cccccc; 
+border-radius: 4px; 
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); 
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); 
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; 
+}
