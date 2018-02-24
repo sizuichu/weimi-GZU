@@ -14,7 +14,7 @@
 /* .userinfo-bg {
   width: 100%;
   height: 360rpx;
-  background-color: #0000fe;
+  background-color:#0000fe;
 } 
 
 .userinfo-bg image{
@@ -37,10 +37,10 @@
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 200rpx;
+  height:200rpx;
   margin: 36rpx 0 24rpx;
-  /*border-radius: 50%;*/
+ border-radius: 50%;
 }
 
 .dec {
@@ -62,6 +62,7 @@
   flex-direction: column;
   padding: 32rpx 0;
   /* margin-top: 5rpx; */
+ 
 }
 
 .log-items {
