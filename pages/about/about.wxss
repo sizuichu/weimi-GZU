@@ -9,7 +9,50 @@
  * Copyright (c) 2017 https://www.watch-life.net All rights reserved.
  * 
  */
+.myView {
+  font-size: 25rpx;
+  margin: 20rpx;
+  padding: 16rpx;
+  text-align: center;
+}
 
+.cBtn {
+  height: 100rpx;
+  margin-left: 300rpx;
+ 
+}
+.kefu{
+  border: 2rpx solid gray;
+  border-radius: 20rpx;
+  padding-top: 20rpx;
+}
+.cs_button {
+  background-color: #fff;
+  border: 0px;
+  height: 100rpx;
+  position: fixed;
+  margin-left: 240rpx;
+}
+
+.cs_button:after {
+  border: 0px;
+}
+
+.cs_image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.gzuabout{
+width: 100%;
+height: auto;
+border: 1rpx solid gray;
+border-radius:20rpx;
+}
+.gzuabout-img{
+width: 100%;
+height: 100rpx;
+}
 @import "../../wxParse/wxParse.wxss";
  .wrapper{
   padding: 5rpx;
