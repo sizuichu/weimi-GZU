@@ -13,7 +13,7 @@
 <template name="tempHeader">
   <view class="header">
     <image src="../../images/logo.png" style="height:300rpx;width:100%"></image>
-    <view style='margin-top:40rpx'>
+    <view style='margin-top:30rpx'>
       微觅贵大-寻觅你的贵大。
     </view>
   </view>

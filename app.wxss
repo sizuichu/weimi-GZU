@@ -19,7 +19,7 @@
   padding: 15rpx;
   text-align: center;
   font-weight: normal;
-  font-size: 40rpx;
+  font-size: 30rpx;
   line-height: 40rpx;
   color: #757575;
   border-bottom: 10rpx solid #ededed;
@@ -162,10 +162,11 @@ height: 100rpx;
   margin-left: 0rpx;
   height: auto;
   margin-bottom: 20rpx;
-  border-bottom: 1px solid gray;
-  padding-bottom: 24rpx;
   padding-top: 15rpx;
   font-size: 34rpx;
+  background: #ffeecc;
+  padding: 25rpx;
+  border-left: 20rpx solid  brown;
 }
 .new-content-date{
 text-align: right;
