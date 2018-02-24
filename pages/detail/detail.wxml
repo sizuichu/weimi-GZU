@@ -50,7 +50,7 @@
 
         <view class="relatedPost" style="display:{{display}}">
             <view class="relatedTitle">
-                猜你喜欢
+                热门推荐
             </view>
             <view class="entry-gap-like"></view>
             <view class="relatedText">
@@ -84,7 +84,7 @@
 
         <view style="display:{{display}}">
             <view class="relatedTitle">
-                评论交流
+                留言反馈
             </view>
             <view class="entry-gap-like"></view>
             <view class="commentheader">
@@ -157,7 +157,7 @@
                 </view>
 
                 <view hidden="{{!isNoComment}}">
-                    <view class="no-more" hidden="{{!isLastPage}}">---无更多评论---</view>
+                    <view class="no-more" hidden="{{!isLastPage}}">---无更多留言---</view>
                 </view>
             </view>
             <modal title="{{dialog.title}}" hidden="{{dialog.hidden}}" no-cancel bindconfirm="confirm">{{dialog.content}}</modal>

@@ -36,7 +36,7 @@ Page({
         isLastPage: false,
         parentID: "0",
         focus: false,
-        placeholder: "输入评论",
+        placeholder: "我要留言",
         postID: null,
         scrollHeight: 0,
         postList: [],
@@ -662,7 +662,7 @@ Page({
                                     content: '',
                                     parent: "0",
                                     userid: 0,
-                                    placeholder: "输入评论",
+                                    placeholder: "输入留言",
                                     focus: false,
                                     commentsList: []
 
@@ -672,7 +672,7 @@ Page({
                                     //wx.hideLoading();
                                     //if (flag == '1') {
                                     wx.showToast({
-                                        title: '评论发布成功。',
+                                        title: '留言发布成功。',
                                         icon: 'success',
                                         duration: 900,
                                         success: function () {
