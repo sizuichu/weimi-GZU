@@ -31,7 +31,7 @@ var INDEXNAV = [
   { id: '1', name: '图书馆', image: '../../images/mitushu.png', url: 'pages/index/index', redirecttype: 'miniapp', appid: 'wxe756120c4f963bbc', extraData:'' },
     { id: '2', name: '排行', image: '../../images/miwenku.png', url: '../hot/hot', redirecttype: 'apppage', appid: '', extraData:''},
     { id: '3', name: '专题', image: '../../images/mizhuanti.png', url: '../topic/topic', redirecttype: 'apppage', appid: '', extraData:''},
-    { id: '4', name: '觅校园', image: '../../images/mishetuan.png', url: '../topic/topic', redirecttype: 'apppage', appid: '', extraData: '' },
+    { id: '4', name: '动态', image: '../../images/mishetuan.png', url: '../myad/myad', redirecttype: 'apppage', appid: '', extraData: '' },
     
     ]
 
