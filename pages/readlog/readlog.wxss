@@ -9,9 +9,10 @@
   justify-content: space-between;
   /*padding: 50rpx 0; */
   box-sizing: border-box;
+
 }
 
-/* .userinfo-bg {
+.userinfo-bg {
   width: 100%;
   height: 360rpx;
   background-color:#0000fe;
@@ -21,13 +22,13 @@
   width: 100%;
   height: 360rpx;
   filter: blur(4px);
-}  */
+}  
 
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #118fff;
+  background: #118fff url(http://tu.weask.club/18-2-25/62226305.jpg) no-repeat fixed top;
   height: 320rpx;
   width: 100%;
   /* position: absolute;
@@ -37,10 +38,11 @@
 }
 
 .userinfo-avatar {
-  width: 200rpx;
-  height:200rpx;
+  width: 180rpx;
+  height:180rpx;
   margin: 36rpx 0 24rpx;
  border-radius: 50%;
+ border: 10rpx solid #9babba;
 }
 
 .dec {
@@ -60,7 +62,7 @@
 .log-list {
   display: flex;
   flex-direction: column;
-  padding: 32rpx 0;
+  padding:10rpx 0;
   /* margin-top: 5rpx; */
  
 }
