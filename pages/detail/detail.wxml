@@ -41,10 +41,10 @@
         <!--  上一篇，下一篇  -->
         <view wx:if="{{display}}" class="pagination">
             <view wx:if="{{detail.previous_post_id}}" class="nav-previous">
-                <navigator url="../detail/detail?id={{detail.previous_post_id}}" open-type="redirect" hover-class="relatedNavigator">←{{detail.previous_post_title}}</navigator>
+                <navigator url="../detail/detail?id={{detail.previous_post_id}}" open-type="redirect" hover-class="relatedNavigator"><span class="spanpost">上一篇：</span>{{detail.previous_post_title}}</navigator>
             </view>
             <view wx:if="{{detail.next_post_id}}" class="nav-next">
-                <navigator url="../detail/detail?id={{detail.next_post_id}}" open-type="redirect" hover-class="relatedNavigator">{{detail.next_post_title}}→</navigator>
+                <navigator url="../detail/detail?id={{detail.next_post_id}}" open-type="redirect" hover-class="relatedNavigator"><span class="spanpost">下一篇：</span>{{detail.next_post_title}}</navigator>
             </view>
         </view>
 
@@ -64,7 +64,7 @@
 
         <view class="likePost" style="display:{{displayLike}}">
             <view class="relatedTitle">
-                点 赞
+                点赞
             </view>
             <view class="entry-gap-zan"></view>
 
@@ -179,6 +179,8 @@
                             <button class="comment-button touch-active" formType="submit">发送</button>
                             <image src="../../images/plus.png" class="img-plus" catchtap="ShowHideMenu" mode=""></image>
                         </view>
+                    
+                    
                         <!--功能图标-->
                         <view class="menu-box {{isShow ? 'emoji-move-in' : 'emoji-move-out'}} {{isLoad ? 'no-emoji-move' : ''}}">
                             <view class="iconList">

@@ -85,7 +85,8 @@
 
 .comment {
   /* border-bottom: 8px solid #fff; */
-  background-color: #f5f7f7;
+  background-color: none;
+  border: 1rpx solid #999;
   padding: 0 24rpx;
   border-radius: 8px;
   margin: 8px 0;
@@ -384,6 +385,7 @@
 
 .relatedNavigator {
   color: #21759b !important;
+ 
 }
 
 .sharedetail {
@@ -600,16 +602,26 @@
   font-size: 28rpx;
   line-height: 60rpx;
   color: #4c4c4c !important;
-  border-bottom: 1px solid #eee;
-
+  border: 1px solid #eee;
+padding: 10rpx;
+border-radius: 20rpx;
 }
 .nav-previous {
     float: left;
-    width: 80%;
+    width: 100%;
+   padding: 10rpx;
 }
 
 .nav-next {
-    float: right;
-    text-align: right;
-    width: 80%;
+    float: left;
+    text-align:left;
+    width: 100%;
+   padding: 10rpx;
+   padding-bottom: 20rpx;
 } 
+.spanpost, .spannext{
+  background: #eb2226;
+  padding: 5rpx;
+  color: white;
+  border-radius: 5rpx;
+}
