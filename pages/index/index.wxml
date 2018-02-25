@@ -45,7 +45,7 @@
             <view class="search-pancel">
                 <input value="" id="search-input" name="input" confirm-type="search" class="search-input" placeholder="搜索你感兴趣的内容..." bindconfirm="formSubmit"></input>
                 <button class="search-button" form-type="submit" size="mini" plain="true">
-                    <icon type="search" color="#959595" size="12" />
+                    <icon type="search" color="#959595" size="16" />
                 </button>
             </view>
         </form>

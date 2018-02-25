@@ -73,10 +73,10 @@ swiper .swiper-desc {
 /*   index   swiper  end  */
 
 .search-button {
-  border-left: 0 !important;
-  border-top: 1px solid #fff !important;
-  border-right: 1px solid #fff !important;
-  border-bottom: 1px solid #fff !important;
+  border-left: 10rpx #b82721 solid !important;
+  border-top: 1px solid #b82721!important;
+  border-right: 1px solid #b82721 !important;
+  border-bottom: 1px solid #b82721 !important;
   background-color: #fff !important;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
@@ -94,7 +94,8 @@ swiper .swiper-desc {
 }
 
 .search-input {
-  background-color: #fff;
+  border: 1rpx solid #b82721;
+  background-color:#fff;
   padding: 16rpx 0 16rpx 32rpx;
   min-height: 1rem;
   font-size: 30rpx;
