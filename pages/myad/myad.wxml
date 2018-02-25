@@ -1,0 +1,19 @@
+
+<import src="../../wxParse/wxParse.wxml" />
+<import src="../../templates/header.wxml" />
+<import src="../../templates/copyright.wxml" />
+<view style="text-align:center;">
+<view class="container" style="display:{{display}}">
+    <template is="tempHeader" />
+</view>
+<view class='mytitle'>
+<text>最新动态</text>
+</view>
+<view class='myadtitle'>
+<image src="https://school.mepuw.cn/adimg/myad/myad.png"class="myad"></image>
+</view>
+</view>
+
+<view class="copyright" style="display:{{floatDisplay}}">
+                <template is="tempCopyright" />
+            </view>
