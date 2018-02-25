@@ -28,9 +28,10 @@ var ZANIMAGEURL = 'http://tu.weask.club/18-2-24/23762200.jpg';//微信赞赏的�
  //        'appid' 当redirecttype为miniapp时，这个值为其他微信小程序的appid，如果redirecttype为apppage，webpage时，这个值设置为空。
  //         'extraData'当redirecttype为miniapp时，这个值为提交到其他微信小程序的参数，如果redirecttype为apppage，webpage时，这个值设置为空。
 var INDEXNAV = [
-    { id: '1', name: '图书馆', image: '../../images/shop.png', url: 'pages/index/index', redirecttype: 'miniapp', appid: 'wx55ea6098e41af5c4', extraData:'' },
-    { id: '2', name: '排行', image: '../../images/ranking.png', url: '../hot/hot', redirecttype: 'apppage', appid: '', extraData:''},
-    { id: '3', name: '觅校园', image: '../../images/tar-topic.png', url: '../topic/topic', redirecttype: 'apppage', appid: '', extraData:''},
+  { id: '1', name: '图书馆', image: '../../images/mitushu.png', url: 'pages/index/index', redirecttype: 'miniapp', appid: 'wxe756120c4f963bbc', extraData:'' },
+    { id: '2', name: '排行', image: '../../images/miwenku.png', url: '../hot/hot', redirecttype: 'apppage', appid: '', extraData:''},
+    { id: '3', name: '专题', image: '../../images/mizhuanti.png', url: '../topic/topic', redirecttype: 'apppage', appid: '', extraData:''},
+    { id: '4', name: '觅校园', image: '../../images/mishetuan.png', url: '../topic/topic', redirecttype: 'apppage', appid: '', extraData: '' },
     
     ]
 
@@ -46,3 +47,12 @@ export default {
   getMinAppType: MINAPPTYPE,
   getZanImageUrl: ZANIMAGEURL
 }
+
+/*获取当前页url*/
+function getCurrentPageUrl() {
+  var pages = getCurrentPages()    //获取加载的页面
+  var currentPage = pages[pages.length - 1]    //获取当前页面的对象
+  var url = currentPage.route    //当前页面url
+  return url
+}
+
