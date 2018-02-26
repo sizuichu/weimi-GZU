@@ -1,18 +1,18 @@
 <template name="tempCommonList">
 
-    <image src='http://tu.weask.club/18-2-23/84791897.jpg'class='content-border-img'></image>
+  <image src='http://tu.weask.club/18-2-23/84791897.jpg' class='content-border-img'></image>
 
   <view class="common-list">
     <block wx:key="id" wx:for="{{postsList}}">
 
       <view class="list-item has-img" index="{{index}}" id="{{item.id}}" bindtap="redictDetail">
         <image src="{{item.post_thumbnail_image}}" mode="aspectFill" class="cover-new"></image>
-       
+
         <view class="new-content-title ">
           <text>{{item.title.rendered}}</text>
         </view>
 
-         <view class='new-content-date'>
+        <view class='new-content-date'>
           <view class="content-date">
             <image src="../../images/calendar.png"></image>
             <text>{{item.date}}</text>
