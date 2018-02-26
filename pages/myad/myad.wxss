@@ -103,12 +103,12 @@
 .myad {
   border: 2rpx solid rebeccapurple;
   border-radius: 20rpx 2orpx 0 0;
-  height:1600rpx;
+  height:1200rpx;
   width: 690rpx;
 }
 
 .myadtitle {
-  border: 0rpx solid rebeccapurple;
+  border: 2rpx solid rebeccapurple;
   border-radius: 20rpx 2;
   padding: 20rpx;
   text-align: center;
@@ -117,10 +117,15 @@
 
 .mytitle {
   border: solid #dcdcdc 6rpx;
-  padding: 20rpx;
+  padding: 5rpx;
   text-align: center;
-  background:white url(http://tu.weask.club/18-2-25/27249025.jpg) no-repeat fixed top;
+  background:white ;
   color: white;
-  width:700rpx;
+  width:98%;
+  border-radius: 10rpx;
 
+}
+.myadimg{
+  width: 98%;
+  height: 100rpx;
 }

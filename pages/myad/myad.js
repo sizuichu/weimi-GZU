@@ -67,7 +67,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: '“' + config.getWebsiteName + '”网站微信小程序,基于WordPress版小程序构建.技术支持：xiaomi.weask.club',
+      title: '“' + config.getWebsiteName + '”微觅贵大.技术支持：jianbo|似最初',
       path: 'pages/index/index',
       success: function (res) {
         // 转发成功

@@ -7,7 +7,7 @@
     <template is="tempHeader" />
 </view>
 <view class='mytitle'>
-<text>最新动态</text>
+<image src="http://tu.weask.club/18-2-26/14927321.jpg"class="myadimg"></image>
 </view>
 <view class='myadtitle'>
 <image src="https://school.mepuw.cn/adimg/myad/myad.png"class="myad"></image>
