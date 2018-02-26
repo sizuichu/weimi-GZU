@@ -69,7 +69,7 @@
         </view>
 
 
-        <view class="no-more" hidden="{{!isLastPage}}">----------无更多文章...---------</view>
+        <view class="no-more" hidden="{{!isLastPage}}">---无更多内容...---</view>
 
       </view>
 
